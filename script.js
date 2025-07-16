@@ -6,7 +6,7 @@ let listaItens = [];
 
 function addTask() {
   if (input.value.trim() === "") {
-    alert("Digite uma tarefa");
+    alert("Nenhuma tarefa por enquanto...");
     return;
   }
 

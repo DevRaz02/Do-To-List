@@ -80,3 +80,20 @@ img {
     background-color: #8fac55;
     text-decoration: line-through;
 }
+
+@media (max-wisth: 600px) {
+    .container {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .input-task {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn-add-task {
+        width: 100%;
+        float: none;
+    }
+}
